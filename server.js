@@ -6,7 +6,7 @@ var server = require('http').createServer(app);
 // var bodyParser = require('body-parser');
 
 // configuration ===============================================================
-app.set('port', process.env.PORT || 8001);
+app.set('port', process.env.PORT || 80);
 app.use(express.static('./site')); 	// set the static files location /public/img will be /img for users
 // app.use(bodyParser.urlencoded({'extended': 'true'})); // parse application/x-www-form-urlencoded
 // app.use(bodyParser.json()); // parse application/json
